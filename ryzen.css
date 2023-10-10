@@ -1,0 +1,133 @@
+.dark-mode {
+    background-color: black;
+    color: #ff8c00;
+}
+
+.bar { 
+        /* kleuren + breedte van de balk + ruimte tussen kopjes */
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-evenly;
+    display:flex;
+    background-color: #ff8c00;
+    color: rgb(17, 14, 14); 
+}
+.baritem { 
+        /* kleur + dikte van de balk */
+    padding: 10px 20px;
+    float: left;
+    width: auto;
+    font-size: 20px;
+    color: rgb(5, 37, 3);
+    text-decoration: none;
+}
+.baritem:hover:not(.active) { 
+        /* als je er met je muis overheen hangt */
+    background-color: #da7801;
+    color: rgba(78, 78, 78, 0.836);
+    transition: .3s ease-in-out;
+}
+.active { 
+        /* wanneer je erop klikt */
+    background-color: rgba(43, 42, 42, 0.900); 
+    color: #ff8c00;  
+}
+
+form {text-align: center;}
+
+/* beetje schoonmaken */
+H1 {text-align: center; font-size: 100px;}
+H2 {text-align: center; font-size: 45px;}
+
+/* general font change */
+body {font-family: spyagency;}
+
+/* formulier image centreren */
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+/* cover image adjustment */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 200px;
+}
+
+/* home image resize */
+.graphics {
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#seven {height: 30%; width: 30%; padding-top: 60px; padding-bottom: 120px;}
+
+/* text netjes maken */
+article {margin-top: 20px;} 
+P {text-align: center; margin-left: 200px; margin-right: 200px;}
+Hl1 {text-align: center}
+H2 {text-align: center}
+        /* nette subtitles */
+span {text-align:center; display: block;} 
+form {text-align: center;}
+
+/* wiki links hover */
+#one {color: #a75c01; font-size: small;}
+#one:hover {color: #ff8c00; background-color: rgb(53, 53, 53);}
+
+#two {color: #a75c01; font-size: small;}
+#two:hover {color: #ff8c00; background-color: rgb(53, 53, 53);}
+
+
+/* ryzen page (AMD Ryzen) text verplaaten + Home Pagina */
+    /* id's */
+#three {margin-top: 220px;}
+#four {margin-left: 100px; margin-top: 60px;}
+#five {margin-left: 1100px; margin-top: 140px;}
+#six {margin-left: 100px; margin-top: 200px;}
+    /* classes */
+p.home1 {padding-left: 300px; position: relative; right: 330px; bottom: 150px;}
+p.home2 {padding-left: 300px; position: relative; left: 50px; bottom: 150px;}
+p.home3 {padding-left: 300px; position: relative; right: 350px; bottom: 150px;}
+    /* text size */
+p.home1 {font-size: x-large;}
+p.home2 {font-size: x-large;}
+p.home3 {font-size: x-large;}
+    /* font style */
+p.home1 {font-style: italic;}
+p.home2 {font-style: italic;}
+p.home3 {font-style: italic;}
+
+
+/* custom font import */
+@font-face {
+    src: url(./font/spyagency3.ttf);
+    font-family: spyagency;
+}
+
+/* watermark */
+.copyright {
+    color: lightgrey;
+    opacity: 15%;
+    font-size: small;
+    float: right;
+    padding-right: 60px;
+}
+#eight {padding-top: 210px;}
+
+/* Center map */
+.map {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+/* ! Thanks for the help Ezzy!!! */
